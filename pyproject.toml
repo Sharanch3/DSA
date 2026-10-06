@@ -1,0 +1,14 @@
+[project]
+name = "dsa"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "numpy>=2.5.3",
+]
+
+[tool.ruff]
+# Force Ruff to exclude all files in this project directory
+exclude = ["**/*.py", "**/*.pyi", "**/*.ipynb"]
